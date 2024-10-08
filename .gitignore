@@ -1,0 +1,66 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Arquivos de sistema operacionais
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
+
+# Dependências locais do sistema
+lib/
+
+# Arquivos de pacotes e distribuição
+*.jar
+*.war
+*.ear
+
+# Arquivos gerados pelo Spring Boot DevTools
+.spring-boot-devtools.properties
+
+# Arquivos de cache do IntelliJ e Maven
+/.idea/**/workspace.xml
+/.idea/**/tasks.xml
+/.idea/dictionaries
+/.idea/libraries
+/.idea/modules.xml
+/.idea/shelf
+/.idea/vcs.xml
+/target/
